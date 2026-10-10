@@ -1,0 +1,41 @@
+{
+  "name": "portfolio-zero",
+  "private": true,
+  "version": "1.0.0",
+  "description": "PROJECT ZERO — a cinematic, scroll-directed WebGL film portfolio for Animesh Sharma.",
+  "author": "Animesh Sharma (https://github.com/AnimeshhXD)",
+  "homepage": "https://github.com/AnimeshhXD/PortfolioZero#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnimeshhXD/PortfolioZero.git"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "shoot": "node scripts/shoot.mjs",
+    "smoke": "node scripts/smoke.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/inter": "^5.3.0",
+    "@fontsource-variable/jetbrains-mono": "^5.3.0",
+    "@fontsource-variable/sora": "^5.3.0",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^26.6.5",
+    "@types/three": "^0.186.0",
+    "eslint": "^10.12.0",
+    "globals": "^17.13.0",
+    "playwright-core": "^1.64.0",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.71.1",
+    "vite": "^8.3.4",
+    "vitest": "^5.0.3"
+  }
+}

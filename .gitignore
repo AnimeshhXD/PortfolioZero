@@ -1,0 +1,17 @@
+# dependencies & build output
+node_modules
+dist
+
+# local review captures (scripts/shoot.mjs)
+shots
+
+# editor / local tooling
+.claude
+.vscode
+.idea
+.DS_Store
+*.log
+.vercel
+
+# source résumé lives in public/ (served by the site); keep the working copy out of the repo
+/Animesh_RESUME_FINAL.pdf
